@@ -1,0 +1,47 @@
+body {
+  background: #2d3339
+}
+.greeting {
+  border: 5px solid #e1dfbe;
+  width: 200px;
+  margin: 100px auto 20px;
+  border-radius: 5px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 32px
+}
+.greeting span {
+  color: #f4f3ce;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.image {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  z-index: -1
+}
+
+.boxed {
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(63,191,63,.2);
+}
+
+.boxes {
+  margin: 20px;
+}
+
+.boxes li {
+   display: inline-block;
+}
+
+.selected {
+  background-color: yellow;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgba(63,191,63,.2);
+}
